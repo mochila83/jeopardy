@@ -32,7 +32,7 @@ body {
     cursor: pointer;
     display: block;
     height: 250px;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 
@@ -46,7 +46,7 @@ body {
 
 
 .blah2{
-	left: 55px;
+	left: 60px;
 }
 
 
@@ -65,7 +65,10 @@ body {
 }
 
 
-
+h4 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
 
 
 
