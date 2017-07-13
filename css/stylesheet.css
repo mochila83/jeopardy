@@ -1,0 +1,36 @@
+.image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding-bottom: 50px;
+
+}
+
+.category-heading {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.btn-primary {
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 10000000000px;
+    display: block;
+    height: 250px;
+}
+
+
+.btn-group-vertical {
+	display: flex;
+}
+
+.blah{
+	left: 100px;
+}
