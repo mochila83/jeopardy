@@ -201,6 +201,7 @@ points: 500,
 
 {
 
+questionId: 'e1',
 category: 'Philosophy',
 question: 'Which Greek philosopher wrote "The Republic"? A. Plato B. Aristotle C. Socrates D. Plutarch',
 answer: 'A. Plato',
@@ -210,6 +211,7 @@ points: 100,
 
 {
 
+questionId: 'e2',
 category: 'Philosophy',
 question: 'The book "Thus Spoke Zarathustra" was written by which philosopher? A. Immanuel Kant B. Rene Descartes C. Friedrich Nietzche D. Soren Kierkegaard',
 answer: 'C. Friedrich Nietzche',
@@ -219,6 +221,7 @@ points: '200',
 
 {
 
+questionId: 'e3',
 category: 'Philosophy',
 question: 'Which French philosopher is known for their work in post-structuralism and postmodern philosophy? A. Simone de Beauvoir B. Voltaire C. Jean-Paul Sartre D. Jacques Derrida',
 answer: 'D. Jacques Derrida',
@@ -228,6 +231,7 @@ points: 300,
 
 {
 
+questionId: 'e4',
 category: 'Philosophy',
 question: 'Which artist is known for his painting "The School of Athens" which depicts nearly every great Greek philosopher? A. El Greco B. Michelangelo C. Caravaggio D. Raphael',
 answer: 'D. Raphael',
@@ -237,6 +241,7 @@ points: 400,
 
 {
 
+questionId: 'e5',
 category: 'Philosophy',
 question: 'Which philosopher who is known primarily for his work in logic, mathematics, and linguistics and published the book "Tractatus Logico-Philosophicus"? A. Karl Marx B. Friedrich Engels C. Ludwig Wittgenstein D. Bertrand Russel',
 answer: 'C. Ludwig Wittgenstein',
