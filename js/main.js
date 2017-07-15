@@ -47,6 +47,7 @@ points: 500,
 
 {
 
+questionId: 'b1',
 category: 'World Leaders',
 question: 'Who is the current Prime Minister of Canada? A. Theresa May B. Emmanuel Macron C. Justin Trudeau D. Angela Merkel',
 answer: 'C. Justin Trudeau',
@@ -56,6 +57,7 @@ points: 100,
 
 {
 
+questionId: 'b2',
 category: 'World Leaders',
 question: 'Who is the current Prime Minister of Israel? A. Benjamin Netanyahu B. Ariel Sharon C. Yitzhak Rabin D. Yasser Arafat',
 answer: 'A. Benjamin Netanyahu',
@@ -65,6 +67,7 @@ points: 200,
 
 {
 
+questionId: 'b3',
 category: 'World Leaders',
 question: 'Which Egyptian politician was the Secretary-General of the United Nations from 1992-1996? A. Anwar Sadat B. Gamal Abdel Nasser C. Abdel Fattah el-Sisi D. Boutros Boutros-Ghali',
 answer: 'D. Boutros Boutros-Ghali',
@@ -74,6 +77,7 @@ points: 300,
 
 {
 
+questionId: 'b4',
 category: 'World Leaders',
 question: 'The 1971 Ugandan coup d\'etat was led by which military general who later became President? A. Idi Amin B. Mummar Gaddafi C. Milton Obote D. Yoweri Mudseveni',
 answer: 'A. Idi Amin',
@@ -83,6 +87,7 @@ points: 400,
 
 {
 
+questionId: 'b5',
 category: 'World Leaders',
 question: 'Which Tunisian President was ousted during the "Arab Spring"? A. Hosni Mubarak B. Habib Bourguiba C. Zine El Abidine Ben Ali D. Beji Caid Essebsi',
 answer: 'C. Zine El Abidine Ben Ali',
