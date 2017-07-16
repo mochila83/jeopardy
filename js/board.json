@@ -304,22 +304,45 @@
             },
             {
                 "value":400,
-               "question":"Question 4 in category 3 for 400 points",
+               "question":"Which Italian film maker known for his fantasy and unique style directed the film La Dolce Vita?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Roberto Rossellini":"A",
+                        "correct":false
+                    },
+                    {
+                        "Michelangelo Antonioni":"B",
+                        "correct":false
+                    },
+                    {
+                        "Federico Fellini":"C",
                         "correct":true
                     },
                     {
-                        "text":"B",
+                        "Bernardo Bertolucci":"D",
+                        "correct":false
+                    }
+                ]
+            }
+        ]
+    },
+    {            "value":500,
+               "question":"The movie Dreams was the last film of which famous Japanese director?",
+                "answers":[
+                    {
+                        "Takashi Miike":"A",
                         "correct":false
                     },
                     {
-                        "text":"C",
+                        "Akira Kurosawa":"B",
+                        "correct":true
+                    },
+                    {
+                        "Kenji Mizoguchi":"C",
                         "correct":false
                     },
                     {
-                        "text":"D",
+                        "Shohei Imamura":"D",
                         "correct":false
                     }
                 ]
@@ -327,92 +350,92 @@
         ]
     },
     {
-        "name":"category4",
+        "name":"Mythology",
         "questions":[
             {
                 "value":100,
-               "question":"Question 1 in category 4 for 100 points",
+               "question":"Which Greek goddess was knowns as goddess of beauty, love, desire, and pleasure?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Andromeda":"A",
+                        "correct":false
+                    },
+                    {
+                        "Helen of Troy":"B",
+                        "correct":false
+                    },
+                    {
+                        "Athena":"C",
+                        "correct":false
+                    },
+                    {
+                        "Aphrodite":"D",
                         "correct":true
-                    },
-                    {
-                        "text":"B",
-                        "correct":false
-                    },
-                    {
-                        "text":"C",
-                        "correct":false
-                    },
-                    {
-                        "text":"D",
-                        "correct":false
                     }
                 ]
             },
             {
                 "value":200,
-               "question":"Question 2 in category 4 for 200 points",
+               "question":"Which Greek god was known as the god of boundaries, travel, communication, trade, language, and writing?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Hermes":"A",
                         "correct":true
                     },
                     {
-                        "text":"B",
+                        "Hades":"B",
                         "correct":false
                     },
                     {
-                        "text":"C",
+                        "Apollo":"C",
                         "correct":false
                     },
                     {
-                        "text":"D",
+                        "Zeus":"D",
                         "correct":false
                     }
                 ]
             },
             {
                 "value":300,
-               "question":"Question 3 in category 4 for 300 points",
+               "question":"Which Egyptian deity's prominent role was maintaining the universe?",
                 "answers":[
                     {
-                        "text":"A",
-                        "correct":true
-                    },
-                    {
-                        "text":"B",
+                        "Isis":"A",
                         "correct":false
                     },
                     {
-                        "text":"C",
+                        "Ma'at":"B",
                         "correct":false
                     },
                     {
-                        "text":"D",
+                        "Anubis":"C",
+                        "correct":false
+                    },
+                    {
+                        "Thoth":"D",
                         "correct":false
                     }
                 ]
             },
             {
                 "value":400,
-               "question":"Question 4 in category 4 for 400 points",
+               "question":"Which Roman god is known as the god of the sky and thunder?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Jupiter":"A",
                         "correct":true
                     },
                     {
-                        "text":"B",
+                        "Mars":"B",
                         "correct":false
                     },
                     {
-                        "text":"C",
+                        "Vulcan":"C",
                         "correct":false
                     },
                     {
-                        "text":"D",
+                        "Mercury":"D",
                         "correct":false
                     }
                 ]
@@ -420,22 +443,46 @@
         ]
     },
     {
-        "name":"category5",
-        "questions":[
-            {
-                "value":100,
-               "question":"Question 1 in category 4 for 100 points",
+                "value":500,
+               "question":"Which Roman god is depicted as having two-faces and is known as the god of beginnings, gates, transitions, time, duality, passages, and endings?",
                 "answers":[
                     {
-                        "text":"A",
-                        "correct":true
-                    },
-                    {
-                        "text":"B",
+                        "Minerva":"A",
                         "correct":false
                     },
                     {
-                        "text":"C",
+                        "Ceres":"B",
+                        "correct":false
+                    },
+                    {
+                        "Janus":"C",
+                        "correct":true
+                    },
+                    {
+                        "Vesta":"D",
+                        "correct":false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name":"Philosophy",
+        "questions":[
+            {
+                "value":100,
+               "question":"Which Greek philosopher wrote The Republic?",
+                "answers":[
+                    {
+                        "Plato":"A",
+                        "correct":true
+                    },
+                    {
+                        "Aristotle":"B",
+                        "correct":false
+                    },
+                    {
+                        "Socrates":"C",
                         "correct":false
                     },
                     {
