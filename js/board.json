@@ -486,29 +486,29 @@
                         "correct":false
                     },
                     {
-                        "text":"D",
+                        "Plutarch":"D",
                         "correct":false
                     }
                 ]
             },
             {
                 "value":200,
-               "question":"Question 2 in category 4 for 200 points",
+               "question":"The book Thus Spoke Zarathustra was written by which philosopher?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Immanuel Kant":"A",
+                        "correct":false
+                    },
+                    {
+                        "Rene Descartes":"B",
+                        "correct":false
+                    },
+                    {
+                        "Friedrich Nietzche":"C",
                         "correct":true
                     },
                     {
-                        "text":"B",
-                        "correct":false
-                    },
-                    {
-                        "text":"C",
-                        "correct":false
-                    },
-                    {
-                        "text":"D",
+                        "Soren Kierkegaard":"D",
                         "correct":false
                     }
                 ]
