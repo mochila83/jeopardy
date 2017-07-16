@@ -515,48 +515,75 @@
             },
             {
                 "value":300,
-               "question":"Question 3 in category 4 for 300 points",
+               "question":"Which French philosopher is known for their work in post-structuralism and postmodern philosophy?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Simone de Beauvoir":"A",
+                        "correct":false
+                    },
+                    {
+                        "Voltaire":"B",
+                        "correct":false
+                    },
+                    {
+                        "Jean-Paul Sartre":"C",
+                        "correct":false
+                    },
+                    {
+                        "Jacques Derrida":"D",
                         "correct":true
-                    },
-                    {
-                        "text":"B",
-                        "correct":false
-                    },
-                    {
-                        "text":"C",
-                        "correct":false
-                    },
-                    {
-                        "text":"D",
-                        "correct":false
                     }
                 ]
             },
             {
                 "value":400,
-               "question":"Question 4 in category 4 for 400 points",
+                "question":"Which artist is known for his painting The School of Athens which depicts nearly every great Greek philosopher?",
                 "answers":[
                     {
-                        "text":"A",
+                        "El Greco":"A",
+                        "correct":false
+                    },
+                    {
+                        "Michelangelo":"B",
+                        "correct":false
+                    },
+                    {
+                        "Caravaggio":"C",
+                        "correct":false,
+                    },
+                    {
+                        "Raphael":"D",
+                        "correct":true
+                    }    
+
+
+                ]
+
+            },
+            {
+                "value":500,
+               "question":"Which philosopher who is known primarily for his work in logic, mathematics, and linguistics and published the book Tractatus Logico-Philosophicus?",
+                "answers":[
+                    {
+                        "Karl Marx":"A",
+                        "correct":false
+                    },
+                    {
+                        "Friedrich Engels":"B",
+                        "correct":false
+                    },
+                    {
+                        "Ludwig Wittgenstein":"C",
                         "correct":true
                     },
                     {
-                        "text":"B",
-                        "correct":false
-                    },
-                    {
-                        "text":"C",
-                        "correct":false
-                    },
-                    {
-                        "text":"D",
+                        "Bertrand Russel":"D",
                         "correct":false
                     }
                 ]
             }
         ]
     }
+]
+   
 ]
