@@ -286,6 +286,10 @@ $(function(){
 
 
 
+
+
+
+
 // ALL INSIDE CLICK EVENT CALLBACK
 
 // 1) pull out id value from the event.target or $(this) using jquery
@@ -295,8 +299,8 @@ $(function(){
 // purpose: iterate over every element (question object) inside questions array
 // stop when you find the question whose 'questionId' value is equal to the id of the 
 // thing that was clicked
-for (var i = 0; i < question.length; i++) {
-	if (clickedId === question[i].questionId) {
+for (var i = 0; i < questions.length; i++) {
+	if (clickedId === questions[i].questionId) {
 		// do something and break out of loop
 		//assign the question object you found to a variable
 	}
