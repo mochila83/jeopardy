@@ -26,66 +26,66 @@
             },
             {
                 "value":200,
-               "question":"Question 2 in category 1 for 200 points",
+               "question":"Which 20th century painter made their permanent home in New Mexico and painted the desert terrian?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Salvador Dali":"A",
+                        "correct":false
+                    },
+                    {
+                        "Frida Kahlo":"B",
+                        "correct":false
+                    },
+                    {
+                        "Georgia OKeefe":"C",
                         "correct":true
                     },
                     {
-                        "text":"B",
-                        "correct":false
-                    },
-                    {
-                        "text":"C",
-                        "correct":false
-                    },
-                    {
-                        "text":"D",
+                        "Jackson Pollock":"D",
                         "correct":false
                     }
                 ]
             },
             {
                 "value":300,
-               "question":"Question 3 in category 1 for 300 points",
+               "question":"The Bolshoi Ballet is an internationally renowned ballet company founded in which country?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Russia":"A",
                         "correct":true
                     },
                     {
-                        "text":"B",
+                        "Poland":"B",
                         "correct":false
                     },
                     {
-                        "text":"C",
+                        "Ukraine":"C",
                         "correct":false
                     },
                     {
-                        "text":"D",
+                        "United States":"D",
                         "correct":false
                     }
                 ]
             },
             {
                 "value":400,
-               "question":"Question 4 in category 1 for 400 points",
+               "question":"The Golden Age of Illustration?",
                 "answers":[
                     {
-                        "text":"A",
+                        "1750-1800":"A",
+                        "correct":false
+                    },
+                    {
+                        "1880-1920":"B",
                         "correct":true
                     },
                     {
-                        "text":"B",
+                        "1930-1940":"C",
                         "correct":false
                     },
                     {
-                        "text":"C",
-                        "correct":false
-                    },
-                    {
-                        "text":"D",
+                        "1600-1650":"D",
                         "correct":false
                     }
                 ]
@@ -93,48 +93,48 @@
         ]
     },
     {
-        "name":"category2",
+        "name":"World Leaders",
         "questions":[
             {
                 "value":100,
-               "question":"Question 1 in category 2 for 100 points",
+               "question":"Who is the current Prime Minister of Canada?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Theresa May":"A",
+                        "correct":false
+                    },
+                    {
+                        "Emmanuel Macron":"B",
+                        "correct":false
+                    },
+                    {
+                        "Justin Trudeau":"C",
                         "correct":true
                     },
                     {
-                        "text":"B",
-                        "correct":false
-                    },
-                    {
-                        "text":"C",
-                        "correct":false
-                    },
-                    {
-                        "text":"D",
+                        "Angela Merkel":"D",
                         "correct":false
                     }
                 ]
             },
             {
                 "value":200,
-               "question":"Question 2 in category 2 for 200 points",
+               "question":"Who is the current Prime Minister of Israel?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Benjamin Netanyahu":"A",
                         "correct":true
                     },
                     {
-                        "text":"B",
+                        "Ariel Sharon":"B",
                         "correct":false
                     },
                     {
-                        "text":"C",
+                        "Yitzhak Rabin":"C",
                         "correct":false
                     },
                     {
-                        "text":"D",
+                        "Yasser Arafat":"D",
                         "correct":false
                     }
                 ]
