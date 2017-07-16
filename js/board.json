@@ -1,25 +1,25 @@
 [
     {
-        "name":"category1",
-        "questions":[
+        "name":"The Arts",
+        "question":[
             {
                 "value":100,
-               "question":"Question 1 in category 1 for 100 points",
+               "question":"Rhapsody in Blue is a musical composition by which American composer?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Franz Liszt":"A",
+                        "correct":false
+                    },
+                    {
+                        "George Gershwin":"B",
                         "correct":true
                     },
                     {
-                        "text":"B",
+                        "Sergei Rachmaninoff":"C",
                         "correct":false
                     },
                     {
-                        "text":"C",
-                        "correct":false
-                    },
-                    {
-                        "text":"D",
+                        "Claude Debussy":"D",
                         "correct":false
                     }
                 ]
