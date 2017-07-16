@@ -93,6 +93,30 @@
         ]
     },
     {
+                "value":500,
+               "question":"Which country was the paleolithic figurine The Venus of Willendorf found?",
+                "answers":[
+                    {
+                        "China":"A",
+                        "correct":false
+                    },
+                    {
+                        "Romania":"B",
+                        "correct":true
+                    },
+                    {
+                        "Austria":"C",
+                        "correct":true
+                    },
+                    {
+                        "France":"D",
+                        "correct":false
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name":"World Leaders",
         "questions":[
             {
@@ -141,44 +165,44 @@
             },
             {
                 "value":300,
-               "question":"Question 3 in category 2 for 300 points",
+               "question":"Which Egyptian politician was the Secretary-General of the United Nations from 1992-1996?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Anwar Sadat":"A",
+                        "correct":false
+                    },
+                    {
+                        "Gamal Abdel Nasser":"B",
+                        "correct":false
+                    },
+                    {
+                        "Abdel Fattah el-Sisi":"C",
+                        "correct":false
+                    },
+                    {
+                        "Boutros Boutros-Ghali":"D",
                         "correct":true
-                    },
-                    {
-                        "text":"B",
-                        "correct":false
-                    },
-                    {
-                        "text":"C",
-                        "correct":false
-                    },
-                    {
-                        "text":"D",
-                        "correct":false
                     }
                 ]
             },
             {
                 "value":400,
-               "question":"Question 4 in category 2 for 400 points",
+               "question":"The 1971 Ugandan coup was led by which military general who later became President?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Idi Amin":"A",
                         "correct":true
                     },
                     {
-                        "text":"B",
+                        "Mummar Gaddafi":"B",
                         "correct":false
                     },
                     {
-                        "text":"C",
+                        "Milton Obote":"C",
                         "correct":false
                     },
                     {
-                        "text":"D",
+                        "Yoweri Mudseveni":"D",
                         "correct":false
                     }
                 ]
@@ -186,71 +210,95 @@
         ]
     },
     {
-        "name":"category3",
-        "questions":[
-            {
-                "value":100,
-               "question":"Question 1 in category 3 for 100 points",
+                "value":500,
+               "question":"Which Tunisian President was ousted during the Arab Spring?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Hosni Mubarak":"A",
+                        "correct":false
+                    },
+                    {
+                        "Habib Bourguiba":"B",
+                        "correct":false
+                    },
+                    {
+                        "Zine El Abidine Ben Ali":"C",
                         "correct":true
                     },
                     {
-                        "text":"B",
+                        "Beji Caid Essebsi":"D",
+                        "correct":false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name":"Film Directors",
+        "questions":[
+            {
+                "value":100,
+               "question":"Which director filmed the 1972 film The Godfather?",
+                "answers":[
+                    {
+                        "Michael Bay":"A",
                         "correct":false
                     },
                     {
-                        "text":"C",
+                        "Francis Ford Coppola":"B",
+                        "correct":true
+                    },
+                    {
+                        "Ron Howard":"C",
                         "correct":false
                     },
                     {
-                        "text":"D",
+                        "Orson Welles":"D",
                         "correct":false
                     }
                 ]
             },
             {
                 "value":200,
-               "question":"Question 2 in category 3 for 200 points",
+               "question":"E.T. the Extra-Terrestrial was directed by which American film maker?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Steven Speilberg":"A",
                         "correct":true
                     },
                     {
-                        "text":"B",
+                        "James Cameron":"B",
                         "correct":false
                     },
                     {
-                        "text":"C",
+                        "Tim Burton":"C",
                         "correct":false
                     },
                     {
-                        "text":"D",
+                        "George Lucas":"D",
                         "correct":false
                     }
                 ]
             },
             {
                 "value":300,
-               "question":"Question 3 in category 3 for 300 points",
+               "question":"2001: A Space Odyssey was made by which American film maker?",
                 "answers":[
                     {
-                        "text":"A",
+                        "Martin Scorsese":"A",
+                        "correct":false
+                    },
+                    {
+                        "Robert Altman":"B",
+                        "correct":false
+                    },
+                    {
+                        "Quentin Tarantino":"C",
+                        "correct":false
+                    },
+                    {
+                        "Stanley Kubrick":"D",
                         "correct":true
-                    },
-                    {
-                        "text":"B",
-                        "correct":false
-                    },
-                    {
-                        "text":"C",
-                        "correct":false
-                    },
-                    {
-                        "text":"D",
-                        "correct":false
                     }
                 ]
             },
