@@ -79,7 +79,7 @@ points: 300,
 
 questionId: 'b4',
 category: 'World Leaders',
-question: 'The 1971 Ugandan coup d\'etat was led by which military general who later became President? A. Idi Amin B. Mummar Gaddafi C. Milton Obote D. Yoweri Mudseveni',
+question: 'The 1971 Ugandan coup was led by which military general who later became President? A. Idi Amin B. Mummar Gaddafi C. Milton Obote D. Yoweri Mudseveni',
 answer: 'A. Idi Amin',
 points: 400,
 
@@ -283,7 +283,6 @@ $(function(){
             return 'CORRECT';
     }; 
 });	
-
 
 
 
