@@ -1,96 +1,142 @@
-var questions = [{
-	questionId: 'a1',
+// Game over function
+// Two players
+	// change score to playerOneScore and playerTwoScore
+	// 
+ 
+ var questions = [
+ {
+	id: '11',
 	category: 'The Arts',
-	question: 'Rhapsody in Blue is a musical composition by which American composer? A. Franz Liszt B. George Gershwin C. Sergei Rachmaninoff D. Claude Debussy'
-	answer: 'B. George Gershwin',
+	q: 'Rhapsody in Blue is a musical composition by which American composer?',
+	ans1: 'A. Franz Liszt',
+	ans2: 'B. George Gerswin',
+	ans3: 'C. Sergei Rachmaninoff',
+	ans4: 'D. Claude Debussy',
+	answer: 'ans2',
 	points: 100,
 
 }, 
 
 {
-	questionId: 'a2',
+	id: '12',
 	category: 'The Arts',
-	question: 'Which 20th century painter made their permanent home in New Mexico and painted the desert terrian? A. Salvador Dali B. Frida Kahlo C. Georgia O\'Keefe D. Jackson Pollock',
-	answer: 'C. Georgia O\'Keefe',
+	q: 'Which 20th century painter made their permanent home in New Mexico and painted the desert terrian?',
+	ans1: 'A. Salvador Dali',
+	ans2: 'B. Frida Kahlo',
+	ans3: 'C. Georgia O\'Keefe',
+	ans4: 'D. Jackson Pollock',
+	answer: 'ans3',
 	points: 200,
 
 	},
 {
 
-	questionId: 'a3',
+	id: '13',
 	category: 'The Arts',
-	question: 'The Bolshoi Ballet is an internationally renowned ballet company founded in which country? A. Russia B. Poland C. Ukraine D. United States',
-	answer: 'A. Russia',
+	q: 'The Bolshoi Ballet is an internationally renowned ballet company founded in which country?',
+	ans1: 'A. Russia',
+	ans2: 'B. Poland',
+	ans3: 'C. Ukraine',
+	ans4: 'D. United States',
+	answer: 'ans1',
 	points: 300,
 
 },
 
 {
 
-	questionId: 'a4',
+	id: '14',
 	category: 'The Arts',
-	question: 'When was "The Golden Age of Illustration"? A. 1750-1800 B. 1880-1920 C. 1930-1940 D. 1600-1650',
-	answer: 'B. 1880-1920',
+	q: 'When was "The Golden Age of Illustration"?',
+	ans1: 'A. 1750-1800',
+	ans2: 'B. 1880-1920',
+	ans3: 'C. 1930-1940',
+	ans4: 'D. 1600-1650',
+	answer: 'ans2',
 	points: 400,
 
 },
 
 {
 
-questionId: 'a5',
+id: '15',
 category: 'The Arts',
-question: 'Which country was the paleolithic figurine "The Venus of Willendorf" found? A. China B. Romania C. Austria D. France',
-answer: 'C. Austria',
+q: 'Which country was the paleolithic figurine "The Venus of Willendorf" found?',
+ans1: 'A. China',
+ans2: 'B. Romania',
+ans3: 'C. Austria',
+ans4: 'D. France',
+answer: 'ans3',
 points: 500,
 
 },
 
 {
 
-questionId: 'b1',
+id: '21',
 category: 'World Leaders',
-question: 'Who is the current Prime Minister of Canada? A. Theresa May B. Emmanuel Macron C. Justin Trudeau D. Angela Merkel',
-answer: 'C. Justin Trudeau',
+q: 'Who is the current Prime Minister of Canada?',
+ans1: 'A. Theresa May',
+ans2: 'B. Emmanuel Macron',
+ans3: 'C. Justin Trudeau',
+ans4: 'D. Angela Merkel',
+answer: 'ans3',
 points: 100,
 
 },
 
 {
 
-questionId: 'b2',
+id: '22',
 category: 'World Leaders',
-question: 'Who is the current Prime Minister of Israel? A. Benjamin Netanyahu B. Ariel Sharon C. Yitzhak Rabin D. Yasser Arafat',
-answer: 'A. Benjamin Netanyahu',
+q: 'Who is the current Prime Minister of Israel?',
+ans1: 'A. Benjamin Netanyahu',
+ans2: 'B. Ariel Sharon',
+ans3: 'C. Yitzhak Rabin',
+ans4: 'D. Yasser Arafat',
+answer: 'ans1',
 points: 200,
 
 },
 
 {
 
-questionId: 'b3',
+id: '23',
 category: 'World Leaders',
-question: 'Which Egyptian politician was the Secretary-General of the United Nations from 1992-1996? A. Anwar Sadat B. Gamal Abdel Nasser C. Abdel Fattah el-Sisi D. Boutros Boutros-Ghali',
-answer: 'D. Boutros Boutros-Ghali',
+q: 'Which Egyptian politician was the Secretary-General of the United Nations from 1992-1996?',
+ans1: 'A. Anwar Sadat',
+ans2: 'B. Gamal Abdel Nasser',
+ans3: 'C. Abdel Fattah el-Sisi',
+ans4: 'D. Boutros Boutros-Ghali',
+answer: 'ans4',
 points: 300,
 
 },
 
 {
 
-questionId: 'b4',
+id: '24',
 category: 'World Leaders',
-question: 'The 1971 Ugandan coup was led by which military general who later became President? A. Idi Amin B. Mummar Gaddafi C. Milton Obote D. Yoweri Mudseveni',
-answer: 'A. Idi Amin',
+q: 'The 1971 Ugandan coup was led by which military general who later became President?',
+ans1: 'A. Idi Amin',
+ans2: 'B. Mummar Gaddafi',
+ans3: 'C. Milton Obote',
+ans4: 'D. Yoweri Mudseveni',
+answer: 'ans1',
 points: 400,
 
 },
 
 {
 
-questionId: 'b5',
+id: '25',
 category: 'World Leaders',
-question: 'Which Tunisian President was ousted during the "Arab Spring"? A. Hosni Mubarak B. Habib Bourguiba C. Zine El Abidine Ben Ali D. Beji Caid Essebsi',
-answer: 'C. Zine El Abidine Ben Ali',
+q: 'Which Tunisian President was ousted during the "Arab Spring"?',
+ans1: 'A. Hosni Mubarak',
+ans2: 'B. Habib Bourguiba',
+ans3: 'C. Zine El Abidine Ben Ali',
+ans4: 'D. Beji Caid Essebsi',
+answer: 'ans3',
 points: 500,
 
 },
@@ -98,70 +144,98 @@ points: 500,
 
 {
 
-questionId: 'c1',
+id: '31',
 category: 'Film Directors',
-question: 'Which director filmed the 1972 film "The Godfather"? A. Michael Bay B. Francis Ford Coppola C. Ron Howard D. Orson Welles',
-answer: 'B. Francis Ford Coppola',
+q: 'Which director filmed the 1972 film "The Godfather"?',
+ans1: 'A. Michael Bay',
+ans2: 'B. Francis Ford Coppola',
+ans3: 'C. Ron Howard',
+ans4: 'D. Orson Welles',
+answer: 'ans2',
 points: 100,
 
 },
 
 {
 
-questionId: 'c2',
+id: '32',
 category: 'Film Directors',
-question: '"E.T. the Extra-Terrestrial was directed by which American film maker? A. Steven Speilberg B. James Cameron C. Tim Burton D. George Lucas',
-answer: 'A. Steven Speilberg',
+q: '"E.T. the Extra-Terrestrial was directed by which American film maker?',
+ans1: 'A. Steven Speilberg',
+ans2: 'B. James Cameron',
+ans3: 'C. Tim Burton',
+ans4: 'D. George Lucas',
+answer: 'ans1',
 points: 200,
 
 },
 
 {
 
-questionId: 'c3',
+id: '33',
 category: 'Film Directors',
-question: '"2001: A Space Odyssey" was made by which American film maker? A. Martin Scorsese B. Robert Altman C. Quentin Tarantino D. Stanley Kubrick',
-answer: 'D. Stanley Kubrick',
+q: '"2001: A Space Odyssey" was made by which American film maker?',
+ans1: 'A. Martin Scorsese',
+ans2: 'B. Robert Altman',
+ans3: 'C. Quentin Tarantino',
+ans4: 'D. Stanley Kubrick',
+answer: 'ans4',
 points: 300,
 
 },
 
 {
 
-questionId: 'c4',
+id: '34',
 category: 'Film Directors',
-question: 'Which Italian film maker known for his fantasy and unique style directed the film "La Dolce Vita"? A. Roberto Rossellini B. Michelangelo Antonioni C. Federico Fellini D. Bernardo Bertolucci',
-answer: 'C. Federico Fellini',
+q: 'Which Italian film maker known for his fantasy and unique style directed the film "La Dolce Vita"?',
+ans1: 'A. Roberto Rossellini',
+ans2: 'B. Michelangelo Antonioni',
+ans3: 'C. Federico Fellini',
+ans4: 'D. Bernardo Bertolucci',
+answer: 'ans3',
 points: 400,
 
 },
 
 {
 
-questionId: 'c5',
+id: '35',
 category: 'Film Directors',
-question: 'The movie "Dreams" was the last film of which famous Japanese director? A. Takashi Miike B. Akira Kurosawa C. Kenji Mizoguchi D. Shohei Imamura',
-answer: 'B. Akira Kurosawa',
+q: 'The movie "Dreams" was the last film of which famous Japanese director?',
+ans1: 'A. Takashi Miike',
+ans2: 'B. Akira Kurosawa',
+ans3: 'C. Kenji Mizoguchi',
+ans4: 'D. Shohei Imamura',
+answer: 'ans2',
 points: 500,
 
 },
 
 {
 
-questionId: 'd1',
+id: '41',
 category: 'Mythology',
-question: 'Which Greek goddess was knowns as goddess of beauty, love, desire, and pleasure? A. Andromeda B. Helen of Troy C. Athena D. Aphrodite',
-answer: 'D. Aphrodite',
+q: 'Which Greek goddess was knowns as goddess of beauty, love, desire, and pleasure?',
+ans1: 'A. Andromeda',
+ans2: 'B. Helen of Troy',
+ans3: 'C. Athena',
+ans4: 'D. Aphrodite',
+answer: 'ans4',
 points: 100,
 
 },
 
 {
 
-questionId: 'd2',
+id: '42',
 category: 'Mythology',
-question: 'Which Greek god was known as the god of boundaries, travel, communication, trade, language, and writing? A. Hermes B. Hades C. Apollo D. Zeus',
-answer: 'A. Hermes',
+q: 'Which Greek god was known as the god of boundaries, travel, communication, trade, language, and writing?',
+ans1: 'A. Hermes',
+ans2: 'B. Hades',
+ans3: 'C. Apollo',
+ans4: 'D. Zeus',
+answer: 'ans1',
 points: 200,
 
 },
@@ -169,20 +243,28 @@ points: 200,
 
 {
 
-questionId: 'd3',
+id: '43',
 category: 'Mythology',
-question: 'Which Egyptian deity\'s prominent role was maintaining the universe? A. Isis B. Ma\'at C. Anubis D. Thoth',
-answer: 'Thoth',
+q: 'Which Egyptian deity\'s prominent role was maintaining the universe?',
+ans1: 'A. Isis',
+ans2: 'B. Ma\'at',
+ans3: 'C. Anubis',
+ans4: 'D. Thoth',
+answer: 'ans4',
 points: 300,
 
 },
 
 {
 
-questionId: 'd4',
+id: '44',
 category: 'Mythology',
-question: 'Which Roman god is known as the god of the sky and thunder? A. Jupiter B. Mars C. Vulcan D. Mercury',
-answer: 'A. Jupiter',
+q: 'Which Roman god is known as the god of the sky and thunder?',
+ans1: 'A. Jupiter',
+ans2: 'B. Mars',
+ans3: 'C. Vulcan',
+ans4: 'D. Mercury',
+answer: 'ans1',
 points: 400,
 
 },
@@ -190,10 +272,14 @@ points: 400,
 
 {
 
-questionId: 'd5',
+id: '45',
 category: 'Mythology',
-question: 'Which Roman god is depicted as having two-faces and is known as the god of beginnings, gates, transitions, time, duality, passages, and endings? A. Minerva B. Ceres C. Janus D. Vesta',
-answer: 'C. Janus',
+q: 'Which Roman god is depicted as having two-faces and is known as the god of beginnings, gates, transitions, time, duality, passages, and endings?',
+ans1: 'A. Minerva',
+ans2: 'B. Ceres',
+ans3: 'C. Janus',
+ans4: 'D. Vesta',
+answer: 'ans3',
 points: 500,
 
 },
@@ -201,88 +287,190 @@ points: 500,
 
 {
 
-questionId: 'e1',
+id: '51',
 category: 'Philosophy',
-question: 'Which Greek philosopher wrote "The Republic"? A. Plato B. Aristotle C. Socrates D. Plutarch',
-answer: 'A. Plato',
+q: 'Which Greek philosopher wrote "The Republic"?',
+ans1: 'A. Plato',
+ans2: 'B. Aristotle',
+ans3: 'C. Socrates',
+ans4: 'D. Plutarch',
+answer: 'ans1',
 points: 100,
 
 },
 
 {
 
-questionId: 'e2',
+id: '52',
 category: 'Philosophy',
-question: 'The book "Thus Spoke Zarathustra" was written by which philosopher? A. Immanuel Kant B. Rene Descartes C. Friedrich Nietzche D. Soren Kierkegaard',
-answer: 'C. Friedrich Nietzche',
+q: 'The book "Thus Spoke Zarathustra" was written by which philosopher?',
+ans1: 'A. Immanuel Kant',
+ans2: 'B. Rene Descartes',
+ans3: 'C. Friedrich Nietzche',
+ans4: 'D. Soren Kierkegaard',
+answer: 'ans3',
 points: '200',
 
 },
 
 {
 
-questionId: 'e3',
+id: '53',
 category: 'Philosophy',
-question: 'Which French philosopher is known for their work in post-structuralism and postmodern philosophy? A. Simone de Beauvoir B. Voltaire C. Jean-Paul Sartre D. Jacques Derrida',
-answer: 'D. Jacques Derrida',
+q: 'Which French philosopher is known for their work in post-structuralism and postmodern philosophy?',
+ans1: 'A. Simone de Beauvoir',
+ans2: 'B. Voltaire',
+ans3: 'C. Jean-Paul Sartre',
+ans4: 'D. Jacques Derrida',
+answer: 'ans4',
 points: 300,
 
 },
 
 {
 
-questionId: 'e4',
+id: '54',
 category: 'Philosophy',
-question: 'Which artist is known for his painting "The School of Athens" which depicts nearly every great Greek philosopher? A. El Greco B. Michelangelo C. Caravaggio D. Raphael',
-answer: 'D. Raphael',
+q: 'Which artist is known for his painting "The School of Athens" which depicts nearly every great Greek philosopher?',
+ans1: 'A. El Greco',
+ans2: 'B. Michelangelo',
+ans3: 'C. Caravaggio',
+ans4: 'D. Raphael',
+answer: 'ans4',
 points: 400,
 
 },
 
 {
 
-questionId: 'e5',
+id: '55',
 category: 'Philosophy',
-question: 'Which philosopher who is known primarily for his work in logic, mathematics, and linguistics and published the book "Tractatus Logico-Philosophicus"? A. Karl Marx B. Friedrich Engels C. Ludwig Wittgenstein D. Bertrand Russel',
-answer: 'C. Ludwig Wittgenstein',
+q: 'Which philosopher who is known primarily for his work in logic, mathematics, and linguistics and published the book "Tractatus Logico-Philosophicus"?',
+ans1: 'A. Karl Marx',
+ans2: 'B. Friedrich Engels',
+ans3: 'C. Ludwig Wittgenstein',
+ans4: 'D. Bertrand Russel',
+answer: 'ans3',
 points: 500,
 
 },
 
 ];
 
+const categories = function(name, id) {
+	this.catName = name;
+	this.catId = id;
+}
+var cat1 = new categories(
+	"The Arts",
+	'1',
+	)
+var cat2 = new categories(
+	"World Leaders",
+	'2',
+	)
+var cat3 = new categories(
+	"Film Directors",
+	'3',
+	)
+var cat4 = new categories(
+	"Mythology",
+	'4',
+	)
+var cat5 = new categories(
+	"Philosophy",
+	'5',
+	)
+
+window.onload = function() {
+	createBoard(1, cat1.catName, cat1.catId);
+	createBoard(2, cat2.catName, cat2.catId);
+	createBoard(3, cat3.catName, cat3.catId);
+	createBoard(4, cat4.catName, cat4.catId);
+	createBoard(5, cat5.catName, cat5.catId);
+	initScore(score);
+	alert('Welcome to Jeopardy');
+}
+
+var score = 0;
+var initScore = function(playerScore) {
+	$('#score_num').html(playerScore);
+}
 
 
-$(function(){
-    var loading = $('#loadbar').hide();
-    $(document)
-    .ajaxStart(function () {
-        loading.show();
-    }).ajaxStop(function () {
-    	loading.hide();
-    });
-    
-    $("label.btn").on('click',function () {
-    	var choice = $(this).find('input:radio').val();
-    	$('#loadbar').show();
-    	$('#quiz').fadeOut();
-    	setTimeout(function(){
-           $( "#answer" ).html(  $(this).checking(choice) );      
-            $('#quiz').show();
-            $('#loadbar').fadeOut();
-           /* something else */
-    	}, 1500);
-    });
+var createBoard = function(colNum, catName, catId) {
+	var points = 100;
+	for (var i = 0; i <=5; i++) {
+		if (i === 0) {
+			var $catName = $('<div>');
+			$catName.addClass('category');
+			$catName.html(catName);
+			$('#column'+colNum).append($catName);
+		} else {
+			var $tile = $('<button>');
+			$tile.addClass('game_tile');
+			var x = catId + '' + i;
+			var y = parseInt(x);
+			$tile.attr('id', y);
+			$tile.attr('points', points);
+			$tile.html(points);
+			points+=100;
+			$tile.on('click', function() {
+				showQuestion(event);
+			});
+			$tile.appendTo("#column" + colNum);
+		}
+	}
+}
 
-    $ans = 3;
+var showQuestion = function(event) {
+	event.target.disabled = true;
+	event.target.style.color = 'black';
 
-    $.fn.checking = function(ck) {
-        if (ck != $ans)
-            return 'INCORRECT';
-        else 
-            return 'CORRECT';
-    }; 
-});	
+	var $modal = $('#question_modal');
+	$modal.show();
+
+	var filtered = questions.filter(function(filtered){
+		
+		return filtered.id == event.target.id;
+	});
+	filtered = filtered[0];
+
+	var $modalContent = $('#modal_c');
+	var $questionToAnswer = $('#question_area');
+	$questionToAnswer.text(filtered.q);
+
+	var correctAnswer=filtered.answer;
+	$modal.attr('correct', correctAnswer);
+
+	var $ans1 = $('#ans1');
+	$ans1.html(filtered.ans1);
+	var $ans2 = $('#ans2');
+	$ans2.html(filtered.ans2);
+	var $ans3 = $('#ans3');
+	$ans3.html(filtered.ans3);
+	var $ans4 = $('#ans4');
+	$ans4.html(filtered.ans4);
+
+	var $pointsWorth = $('#points-worth');
+	$pointsWorth.text(filtered.points);
+
+	$('.answer').attr('points', filtered.points);
+	$('.answer').on('click', function(event) {                     /// CHECK CORRECT FUNCTION
+		if (this.id == $('#question_modal').attr('correct')) {
+			alert('Correct!');
+			score += parseInt($(this).attr('points'), 10);
+			$('#score_num').html(score);
+			$('#question_modal').hide();
+		} else if (this.id != $('#question_modal').attr('correct')){
+			alert('Incorrect!');
+			score -= parseInt($(this).attr('points'), 10);
+		}	
+	});
+
+}
+
+
 
 
 
@@ -298,12 +486,12 @@ $(function(){
 // purpose: iterate over every element (question object) inside questions array
 // stop when you find the question whose 'questionId' value is equal to the id of the 
 // thing that was clicked
-for (var i = 0; i < questions.length; i++) {
-	if (clickedId === questions[i].questionId) {
+//for (var i = 0; i < questions.length; i++) {
+//	if (clickedId === questions[i].questionId) {
 		// do something and break out of loop
 		//assign the question object you found to a variable
-	}
-}
+	// }
+// }
 
 // NOW OUTSIDE loop
 // use the info from the question variable (i.e. question, category, answer, points, etc)
@@ -314,4 +502,46 @@ for (var i = 0; i < questions.length; i++) {
 
 // then select the container and do 
 // itemToAddTo.innerHTML = array[i].property 1 + ' ' + array[i].property 2 etc...
+
+
+
+
+// for (int i=0; i<JsonArray.length; i++) {
+//	var question = JsonArray[i];
+//	var htmlString = "<div>"+question['name']+"</div>";
+//	$("#questions-element").append(htmlString);
+// }
+
+
+
+// <div id="modalInviteArea" class="modal" style="display: none;">
+//	<div class="modal-content">
+//		<h4>HEADER!</h4>
+//		<p class="add-margin-top-30 add-margin-bottom-30">Content!</p>
+//	</div>
+// </div>
+
+
+
+//var currentQuestion = 0;
+
+//function createCurrentQuestion() {
+	//var currentQuestionObject = JSONArray[currentQuestion];
+	// $("#myQuestionDiv").html(currentQuestionObject['html']);
+// }
+
+// $(document).ready(function() {
+	// $("#nextButton").on('click', function(){
+		 //if (currentQuestion < yourJSONArray.length) {
+			// currentQuestion++;
+			// createCurrentQuestion();
+		// }
+//	});
+//	$("#prevButton").on('click', function(){
+//		if (currentQuestion > 0) {
+//			currentQuestion++;
+//			createCurrentQuestion();
+//		}
+//	});
+// });
 
